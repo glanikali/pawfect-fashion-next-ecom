@@ -1,0 +1,26 @@
+.title{
+    text-align: center;
+    width: 100%;
+    margin: 1em auto;
+}
+
+.faq-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    width:80%;
+    margin:auto;
+}
+
+.faq-card > h3{
+   margin-bottom: 1em;
+}
+
+
+@media screen and (max-width: 980px){
+    .faq-card-container{
+        width:100%;
+        grid-template-columns: 1fr;
+    }
+    
+}

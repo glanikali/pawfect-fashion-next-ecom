@@ -1,0 +1,41 @@
+@use '../../styles/theme';
+
+.swatch {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  box-shadow: none;
+  justify-self: center;
+}
+
+.colorSwatch {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  box-shadow: none;
+  justify-self: center;
+}
+
+.swatchHighlight {
+  box-shadow: inset 0 0 0 5px theme.$color-purple;
+}
+
+.colorLabel {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.color {
+  display: none;
+}
+
+.colorContainer {
+  display: flex;
+  grid-gap: 1em;
+}
+
+.colorList {
+  list-style: none;
+}

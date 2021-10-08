@@ -1,0 +1,24 @@
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: grid;
+    place-items: center;
+}
+
+.modalCard{
+    background: white;
+    width: 80%;
+    display: grid;
+    place-items: center;
+    grid-gap: 1em;
+}
+
+@media only screen and (min-width: 980px) {
+    .modalCard {
+     width: 60%;
+    }
+  }

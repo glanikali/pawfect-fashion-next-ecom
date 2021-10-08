@@ -1,0 +1,12 @@
+@use '../../styles/theme';
+.list{
+    list-style: none;
+    text-align: left;
+    cursor: pointer;
+    background: theme.$color-purple;
+    color: white;
+    padding: .3em;
+}
+.list:hover, .list:active, .list:focus {
+    background: theme.$color-lightPurple;
+}

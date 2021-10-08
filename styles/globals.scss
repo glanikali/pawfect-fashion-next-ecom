@@ -1,0 +1,89 @@
+@use 'theme.scss';
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Montserrat&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Chewy", cursive;
+  color: theme.$color-brown;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h4 {
+  font-size: 1.6rem;
+}
+
+p,
+li,
+a,
+input, label,
+select {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  color: black;
+}
+
+li {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: theme.$color-brown;
+}
+
+a:hover,
+a:active {
+  color: theme.$color-lightBrown;
+  opacity: 70;
+}
+
+body {
+  background-color: theme.$color-lightPurple;
+}
+
+::placeholder{
+  font-style: italic;
+  font-weight: lighter;
+  color: grey;
+  
+}
+
+
+::-webkit-scrollbar-track
+{
+	background-color: theme.$color-lightPurple;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: theme.$color-purple;
+
+}
+
+@media screen and (max-width:480px) {
+  html{
+    width: 130%;
+  }
+  #modal{
+    width: 130%;
+  }
+}

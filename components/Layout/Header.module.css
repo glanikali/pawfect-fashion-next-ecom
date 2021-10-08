@@ -1,0 +1,11 @@
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
+.navlinks {
+  list-style: none;
+}
+/*# sourceMappingURL=Header.module.css.map */

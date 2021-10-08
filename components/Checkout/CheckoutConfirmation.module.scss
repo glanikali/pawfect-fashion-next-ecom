@@ -1,0 +1,25 @@
+.bandanaContainer {
+  width: 100%;
+  display: flex;
+  grid-gap: 1em;
+  justify-content: center;
+}
+
+
+
+.cartInfoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.cartInfoInner {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.button{
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+@use '../../styles/theme';
+
+.toggle {
+  transform: scale(1.2);
+  color: theme.$color-rust;
+  transition: transform 1s ease-in-out;
+  transition: color 1s ease-in-out;
+}

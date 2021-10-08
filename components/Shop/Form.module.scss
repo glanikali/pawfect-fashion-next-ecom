@@ -1,0 +1,39 @@
+@use '../../styles/theme';
+
+.formCardContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  align-content: center;
+}
+
+.listContainer {
+  display: flex;
+  grid-gap: 1em;
+}
+
+.listContainerColor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+.innerFormContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
+
+.customTextInput {
+  background: transparent;
+  border: none;
+  border-bottom: 5px solid black;
+  transition: border-bottom 1s ease-in-out;
+}
+
+.customTextInput:hover,
+.customTextInput:active,
+.customTextInput:focus {
+  border-bottom-color: theme.$color-purple;
+  outline: none;
+}

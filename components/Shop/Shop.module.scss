@@ -1,0 +1,16 @@
+.shopContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+
+@media only screen and (max-width: 980px) {
+  .shopContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+.formCard {
+  display: grid;
+  align-content: center;
+}

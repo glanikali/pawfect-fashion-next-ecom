@@ -1,0 +1,40 @@
+@use '../../styles/theme';
+
+.dropdownContainer{
+    background: url('https://media.pawfectfashion.com/wp-content/uploads/2021/09/purple-hearts.png');
+    padding: 1em;
+    transform: translateY(-10px);
+    opacity: 0;
+    border: 3px solid theme.$color-purple ;
+    animation: slideIn .5s ease-in-out forwards;
+    
+}
+
+@media screen and (min-width: 980px){
+    .dropdownContainer{
+        display: none;
+    }
+}
+@keyframes slideIn{
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+.list{
+    list-style: none;
+   font-weight: bold;
+   
+  
+}
+
+.listContainer{
+    display: grid;
+    grid-template-columns:  1fr;
+   
+    grid-gap: 1em;
+    place-items: center;
+}

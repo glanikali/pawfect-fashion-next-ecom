@@ -1,0 +1,10 @@
+.buttonContainer{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 1em;;
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}

@@ -1,0 +1,48 @@
+@use '../../styles/theme';
+
+.contact-text-container{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    width: 50%;
+    margin: auto;
+}
+
+@media screen and (max-width: 980px){
+    .form{
+        width:100%;
+    }
+
+}
+
+.input, .text-area {
+    height: 2em;
+    border: none;
+    border-bottom: 3px solid black;
+    padding: .2em .2em;
+}
+
+.form .input:hover, .input:active, .input:focus, .text-area:hover,  .text-area:focus,  .text-area:active {
+    outline: none;
+    border-bottom: 3px solid theme.$color-purple;
+}
+
+.form-container{
+    margin-bottom: 1em;
+}
+
+.text-area{
+    height: 10em;
+    width: 100%;
+}
+
+.fallback-text{
+    color: red;
+    font-style: italic;
+}

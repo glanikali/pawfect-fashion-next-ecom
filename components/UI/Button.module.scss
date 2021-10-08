@@ -1,0 +1,16 @@
+@use '../../styles/theme';
+
+.button {
+  background: theme.$color-purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.3em 0.5em;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+.button:disabled{
+  background: grey;
+  cursor: not-allowed;
+}
