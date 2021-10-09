@@ -1,4 +1,4 @@
-#installation
+# Installation
 
 Get started with by typing npm install to install all dependencies.
 
