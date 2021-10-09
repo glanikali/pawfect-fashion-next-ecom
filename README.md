@@ -1,6 +1,8 @@
-- Get started with by typing npm install to install all dependencies.
+#installation
 
-- You will need the following Keys to get started:
+Get started with by typing npm install to install all dependencies.
+
+## You will need the following Keys to get started:
 
 - PRODUCTION_HOST_URL: process.env.PRODUCTION_HOST_URL,
 - NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY: process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,
